@@ -2,12 +2,13 @@
 title: e-KMP
 description: 
 published: true
-date: 2021-11-19T07:37:14.234Z
+date: 2021-11-19T07:37:36.113Z
 tags: 模板-字符串处理, e-kmp, 扩展kmp
 editor: markdown
 dateCreated: 2021-11-19T02:56:05.205Z
 ---
 
+```cpp
 #include <algorithm>
 using namespace std;
 /*
@@ -57,3 +58,4 @@ void EKMP(char x[], int m, char y[], int n, int next[], int extend[])
 		}
 	}
 }
+```
